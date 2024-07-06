@@ -225,9 +225,8 @@ namespace esphome {
 
             auto temperature = 22;
             auto fanSpeed = MHI_FAN_AUTO;
-            auto swingV = MHI_VS_STOP;
-            // auto swingH = MHI_HS_RIGHT;  // custom preferred value for this mode, should be MHI_HS_STOP
-            auto swingH = MHI_HS_STOP;
+            auto swingV = MHI_VS_UP;
+            auto swingH = MHI_HS_MIDDLE;
             auto _3DAuto = MHI_3DAUTO_OFF;
             auto silentMode = MHI_SILENT_OFF;
 
